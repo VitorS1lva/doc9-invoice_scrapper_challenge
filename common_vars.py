@@ -13,6 +13,7 @@ process_name = "[Doc9 - Invoice Scraper]"
 
 # Diretório de logs
 log_dir = project_root / "logs"
+log_dir.mkdir(parents=True, exist_ok=True)
 
 # uRL base a ser acessada para scrapping
 base_url = "https://rpachallengeocr.azurewebsites.net"
