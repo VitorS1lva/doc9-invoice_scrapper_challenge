@@ -2,6 +2,7 @@ import logging
 import shutil
 from common_vars import output_dir
 
+
 # Este arquivo armazena funcões uteis a serem utilizadas ao longo do processo de automação
 
 # Função que limpa a pasta de output antes de cada execução

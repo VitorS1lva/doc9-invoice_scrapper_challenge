@@ -1,4 +1,5 @@
 # Este arquivo armazena variáveis globais comuns a serem utilizadas ao longo do processo de automação
+
 from pathlib import Path
 
 # Caminho absoluto da raiz do projeto

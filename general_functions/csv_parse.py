@@ -9,6 +9,7 @@ def save_rows_csv(rows: List[Union[Any, Dict[str, Any]]]) -> str:
     """
     Salva os dados extraídos do site em um arquivo CSV.
     """
+    
     if not rows:
         logging.warning("Nenhum dado para salvar no CSV")
         return ""

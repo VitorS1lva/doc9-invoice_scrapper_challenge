@@ -15,6 +15,7 @@ async def download_pdf(session: aiohttp.ClientSession, url: str, path):
         with open(path, "wb") as f:
             f.write(content)
 
+
 async def download_all_pdfs(pdf_tasks):
     """
     Função para baixar todos os PDFs em paralelo, usa a função de download_pdf
@@ -22,6 +23,7 @@ async def download_all_pdfs(pdf_tasks):
     async with aiohttp.ClientSession() as session:
         tasks = [download_pdf(session, url, path) for url, path in pdf_tasks]
         await asyncio.gather(*tasks)
+
 
 def get_rows(logger) -> List[Row]:
     """

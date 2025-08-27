@@ -1,3 +1,8 @@
+"""
+- Python Version: 3.8+
+- Encoding: UTF-8
+"""
+
 # Libs
 import sys
 import time
