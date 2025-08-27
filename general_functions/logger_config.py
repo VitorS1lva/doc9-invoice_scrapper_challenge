@@ -3,7 +3,7 @@ from datetime import datetime
 from pathlib import Path
 from common_vars import log_dir, process_name
 
-# Variável global para controlar se algum handler já foi adicionado
+# Variável externna para controlar se algum handler já foi adicionado
 _logger_configured = False
 
 def setup_logger() -> logging.Logger:

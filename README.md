@@ -11,13 +11,9 @@ Automatizar o processo de coleta de dados de faturas em uma plataforma web, incl
 - Filtragem de dados conforme a data de vencimento.
 - Geração de relatórios em CSV.
 
-## Principais Pontos do Projeto
-
 ## Como Executar
-
 # 1) instalar dependências
 pip install -r requirements.txt
-
 # 2) executar
 python main.py
 
