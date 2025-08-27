@@ -1,0 +1,16 @@
+# VENVs
+.env
+.venv
+env/
+venv/
+
+# Pastas/arquivos do editor
+.vscode/
+.idea/
+
+# Logs e outputs do projeto
+logs/
+output/
+*.jpg
+*.csv
+*.rar
