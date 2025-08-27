@@ -52,8 +52,8 @@ python main.py
 
 - `main.py` — Orquestra o fluxo principal da automação.
 - `general_functions/` — Configuração, logger e tipos de dados.
+- `images/` - Imagens do projeto.
 - `process/` — Funções de scraping e manipulação de dados.
-- `utils/` — Utilitários para Selenium, manipulação de arquivos e datas.
 - `output/` — Resultados gerados pela automação.
 - `logs/` — Arquivos de log de execução.
 
