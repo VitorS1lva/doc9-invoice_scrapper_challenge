@@ -4,7 +4,9 @@ Minhas saudações à equipe da DOC9, prazer estar fazendo parte do processo sel
 
 Separei essa seção para discorrer brevemente sobre as decisões mais diferentes que tomei no código que possam vir a gerar questionamentos, mas ainda me coloco à disposição caso queiram me contatar.
 
-1º consideração - Sobre a forma de extração de dados da tabela, no e-mail foi apontado o uso do Selenium porém acabei optando pelo uso de um request básico, visto que com o Selenium eu não consegui fazer um tempo de execução melhor do que 5 segundos, então explorei a aba de desenvolvedor "Network" do navegador e achei um método POST que me permitiu pingar direto nele a requisição. Isso diminuiu meu tempo de execução para 2.11, foi o melhor tempo que consegui para este desafio.
+1º consideração - Sobre a forma de extração de dados da tabela, no e-mail foi apontado o uso do Selenium porém acabei optando pelo uso de um request básico, visto que com o Selenium eu não consegui fazer um tempo de execução melhor do que 5 segundos, então explorei a aba de desenvolvedor "Network" (conforme imagem abaixo) do navegador e achei um método POST que me permitiu pingar direto nele a requisição. Isso diminuiu meu tempo de execução para 2.11, foi o melhor tempo que consegui para este desafio.
+
+![Print Console](./images/console.png)
 
 2º consideração - O uso da biblioteca de dataclass para armazenar as informações coletadas do site é basicamente para permitir uma estruturação mais nítida do conjunto de dados que estou extraindo e a facilidade de manipulá-los/transportá-los posteriormente para uma base de dados ou um arquivo csv como é o caso do desafio.
 
