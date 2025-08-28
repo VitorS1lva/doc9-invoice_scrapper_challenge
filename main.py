@@ -26,7 +26,7 @@ def main():
     clean_output_dir()
     
     try:
-        # Chamando função que navegapela tabela da aplicação  
+        # Chamando função que extraiinformações da aplicação  
         logger.info("Iniciando scraping da tabela")
         rows: List[Row] = get_rows(logger)
     finally:

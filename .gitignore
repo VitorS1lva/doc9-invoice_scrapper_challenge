@@ -11,6 +11,12 @@ venv/
 # Logs e outputs do projeto
 logs/
 output/
+
+# Arquivos temporários e binários
 *.jpg
 *.csv
 *.rar
+
+# Cache do Python
+__pycache__/
+*.py[cod]
