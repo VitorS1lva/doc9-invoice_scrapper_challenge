@@ -27,7 +27,6 @@ Este repositório contém a solução para o desafio de automação do processo 
 ## Propósito Geral
 
 Automatizar o processo de coleta de dados de faturas em uma plataforma web, incluindo:
-- Navegação automatizada via Selenium WebDriver.
 - Extração de dados tabulares (número da fatura, data, link para download).
 - Download automático dos arquivos PDF das faturas.
 - Filtragem de dados conforme a data de vencimento.
